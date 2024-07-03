@@ -284,7 +284,7 @@ body {
     height: 30px;
     background: url('../img/cont02_stone02.png') center center no-repeat;
     top: 345px;
-    margin-left: 390px;
+    margin-left: 280px;
     z-index: -1;
 }
 #content .section .cont_main .cont_main_inner ul li .stone03 {
@@ -292,7 +292,7 @@ body {
     height: 80px;
     background: url('../img/cont02_stone03.png') center center no-repeat;
     top: 218px;
-    margin-left: 166px;
+    margin-left: 390px;
 }
 #content .section .cont_main .cont_main_inner ul li .stone04 {
     width: 118px;
