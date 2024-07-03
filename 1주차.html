@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/cont.css">
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $(".cont_a a").on("mouseenter", function(e) {
+                var index = $(e.currentTarget).index();
+                $(".cont_main_inner ul li").eq(index).addClass("active").siblings("li").removeClass("active"),
+                $(".cont_inner > span").eq(index).addClass("active")
+
+                console.log('또 못살게구네!');
+            }).on("mouseleave", function(e) {
+                var index = $(e.currentTarget).index();
+                $(".cont_main_inner ul li").addClass("active"),
+                $(".cont_inner > span").eq(index).removeClass("active")
+            })
+
+            $('.toggle-button').click(function() {
+                $('#content .section .cont_inner > span .sub_img05').toggleClass('show');
+            });
+
+            $()
+        });
+    </script>
 </head>
 <body>
     <div id="wrap">
+        <div class="box"></div>
         <header id="header">
             <h1>
                 <a href="#">
