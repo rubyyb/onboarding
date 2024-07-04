@@ -137,6 +137,12 @@ body {
 #content .section .cont_inner > span:nth-child(2) {
     background: url('../img/cont02_back_bg.png') center center no-repeat;
 }
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* 💥💥💥cont03_sub💥💥💥 */
 #content .section .cont_inner > span:nth-child(3) {
